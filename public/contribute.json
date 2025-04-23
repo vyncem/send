@@ -1,17 +1,17 @@
 {
-  "name": "firefox-send",
+  "name": "send",
   "description": "File Sharing Experiment",
   "repository": {
-    "url": "https://github.com/send/send/",
+    "url": "https://github.com/timvisee/send/",
     "license": "MPL-2.0"
   },
   "participate": {
-    "home": "https://github.com/send/send/blob/master/README.md",
-    "docs": "https://github.com/send/send/blob/master/README.md"
+    "home": "https://github.om/timvisee/send/blob/master/README.md",
+    "docs": "https://github.com/timvisee/send/blob/master/README.md"
   },
   "bugs": {
-    "list": "https://gitlab.com/send/send/issues",
-    "report": "https://gitlab.com/send/send/issues/new"
+    "list": "https://github.com/timvisee/send/issues",
+    "report": "https://github.com/timvisee/send/issues/new"
   },
   "keywords": [
     "JavaScript",
