@@ -152,3 +152,5 @@ shareLinkButton = Share link
 shareMessage = Download “{ $name }” with { -send-brand }: simple, safe file sharing
 trailheadPromo = There is a way to protect your privacy. Join Firefox.
 learnMore = Learn more.
+
+sponsoredByThunderbird = Sponsored by Thunderbird

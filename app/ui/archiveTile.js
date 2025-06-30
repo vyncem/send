@@ -597,7 +597,7 @@ module.exports.preview = function(state, emit) {
               height="30"
             />
           </svg>
-          Sponsored by Thunderbird
+          ${state.translate('sponsoredByThunderbird')}
         </a>
       `
     : '';
