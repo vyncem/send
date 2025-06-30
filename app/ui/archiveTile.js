@@ -578,6 +578,29 @@ module.exports.preview = function(state, emit) {
         </p>
       `
     : '';
+  const sponsor = state.WEB_UI.SHOW_THUNDERBIRD_SPONSOR
+    ? html`
+        <a
+          class="w-full mt-5 mb-2 p-2 border-default dark:border-grey-70 rounded-default text-orange-60 bg-yellow-40 text-center leading-normal"
+          href="https://www.thunderbird.net/"
+        >
+          <svg
+            width="30"
+            height="30"
+            class="m-2 mr-3"
+            style="display: inline-block; vertical-align: middle;"
+          >
+            <image
+              xlink:href="${assets.get('thunderbird-icon.svg')}"
+              src="${assets.get('thunderbird-icon.svg')}"
+              width="30"
+              height="30"
+            />
+          </svg>
+          ${state.translate('sponsoredByThunderbird')}
+        </a>
+      `
+    : '';
 
   return html`
     <send-archive
@@ -594,7 +617,7 @@ module.exports.preview = function(state, emit) {
       >
         ${state.translate('downloadButtonLabel')}
       </button>
-      ${notice}
+      ${notice} ${sponsor}
     </send-archive>
   `;
 

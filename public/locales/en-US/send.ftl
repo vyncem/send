@@ -143,3 +143,5 @@ shareLinkButton = Share link
 # $name is the name of the file
 shareMessage = Download “{ $name }” with { -send-brand }: simple, safe file sharing
 learnMore = Learn more.
+
+sponsoredByThunderbird = Sponsored by Thunderbird

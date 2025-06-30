@@ -19,6 +19,7 @@ module.exports = {
     UPLOAD_AREA_NOTICE_HTML: config.upload_area_notice_html,
     UPLOADS_LIST_NOTICE_HTML: config.uploads_list_notice_html,
     DOWNLOAD_NOTICE_HTML: config.download_notice_html,
+    SHOW_THUNDERBIRD_SPONSOR: config.show_thunderbird_sponsor,
     COLORS: {
       PRIMARY: config.ui_color_primary,
       ACCENT: config.ui_color_accent

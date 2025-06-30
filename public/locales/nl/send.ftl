@@ -52,7 +52,7 @@ passwordSetError = Dit wachtwoord kon niet worden ingesteld
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
-introTitle = Bestanden delen, eenvoudig en privé 
+introTitle = Bestanden delen, eenvoudig en privé
 introDescription = Met { -send-brand } kunt u bestanden delen met end-to-endversleuteling en een koppeling die automatisch verloopt. Hierdoor kunt u privé houden wat u wilt delen en er zeker van zijn dat uw zaken niet voor altijd online blijven.
 notifyUploadEncryptDone = Uw bestand is versleuteld en klaar voor verzending
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
@@ -152,3 +152,5 @@ shareLinkButton = Koppeling delen
 shareMessage = Download ‘{ $name }’ met { -send-brand }: eenvoudig, veilig bestanden delen
 trailheadPromo = Er is een manier om uw privacy te beschermen. Doe mee met Firefox.
 learnMore = Meer info.
+
+sponsoredByThunderbird = Gesponsord door Thunderbird
