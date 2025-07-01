@@ -22,8 +22,7 @@ module.exports = function intro(state) {
           <svg
             width="30"
             height="30"
-            class="m-2 mr-3"
-            style="display: inline-block; vertical-align: middle;"
+            class="m-2 mr-3 d-inline-block align-middle"
           >
             <image
               xlink:href="${assets.get('thunderbird-icon.svg')}"

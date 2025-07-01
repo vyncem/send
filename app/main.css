@@ -175,6 +175,14 @@ footer li a:hover {
   display: block;
 }
 
+.d-inline-block {
+  display: inline-block;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
 .main {
   display: flex;
   position: relative;
