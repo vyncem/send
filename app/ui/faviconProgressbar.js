@@ -37,7 +37,7 @@ module.exports.updateFavicon = function(progressRatio) {
       link.href =
         WEB_UI.CUSTOM_ASSETS.favicon_32px !== ''
           ? WEB_UI.CUSTOM_ASSETS.favicon_32px
-          : assets.get('favicon-32x32.png');
+          : assets.get('Yebo_32_32.png');
       return;
     }
 

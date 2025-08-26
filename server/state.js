@@ -34,11 +34,11 @@ module.exports = async function(req) {
   }
   const baseUrl = config.deriveBaseUrl(req);
   const uiAssets = {
-    android_chrome_192px: assets.get('android-chrome-192x192.png'),
-    android_chrome_512px: assets.get('android-chrome-512x512.png'),
-    apple_touch_icon: assets.get('apple-touch-icon.png'),
-    favicon_16px: assets.get('favicon-16x16.png'),
-    favicon_32px: assets.get('favicon-32x32.png'),
+    android_chrome_192px: assets.get('Yebo_192_192.png'),
+    android_chrome_512px: assets.get('Yebo_512_512.png'),
+    apple_touch_icon: assets.get('Yebo_180_180.png'),
+    favicon_16px: assets.get('Yebo_16_16.png'),
+    favicon_32px: assets.get('Yebo_32_32.png'),
     icon: assets.get('icon.svg'),
     safari_pinned_tab: assets.get('safari-pinned-tab.svg'),
     facebook: baseUrl + '/' + assets.get('send-fb.jpg'),

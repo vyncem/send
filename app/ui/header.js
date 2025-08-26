@@ -25,7 +25,7 @@ class Header extends Component {
         icon:
           this.state.WEB_UI.CUSTOM_ASSETS.icon !== ''
             ? this.state.WEB_UI.CUSTOM_ASSETS.icon
-            : assets.get('icon.svg'),
+            : assets.get('Yebo_icon.png'),
         wordmark:
           this.state.WEB_UI.CUSTOM_ASSETS.wordmark !== ''
             ? this.state.WEB_UI.CUSTOM_ASSETS.wordmark
