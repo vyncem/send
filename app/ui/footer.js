@@ -37,15 +37,6 @@ class Footer extends Component {
           </li>
         `);
       }
-      if (WEB_UI.FOOTER_SOURCE_URL != '') {
-        links.push(html`
-          <li class="m-2">
-            <a href="${WEB_UI.FOOTER_SOURCE_URL}" target="_blank">
-              ${translate('footerLinkSource')}
-            </a>
-          </li>
-        `);
-      }
     } else {
       links.push(html`
         <li class="m-2">
