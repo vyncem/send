@@ -38,7 +38,7 @@ passwordSetError = Hindi maitakda ang password na ito
 
 ## Send version 2 strings
 
--send-brand = Send
+-send-brand = Yebo.link
 -send-short-brand = I-send
 -firefox = Firefox
 -mozilla = Mozilla

@@ -4,8 +4,8 @@ module.exports = async function(req, res) {
   const appState = await state(req);
 
   const manifest = {
-    name: 'Send',
-    short_name: 'Send',
+    name: 'Yebo.link',
+    short_name: 'Yebo.link',
     lang: req.language,
     icons: [
       {

@@ -41,8 +41,8 @@ passwordSetError = ไม่สามารถตั้งรหัสผ่า�
 
 ## Send version 2 strings
 
--send-brand = Send
--send-short-brand = Send
+-send-brand = Yebo.link
+-send-short-brand = Yebo.link
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = การแบ่งปันไฟล์ที่ง่ายและเป็นส่วนตัว

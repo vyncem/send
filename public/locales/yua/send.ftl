@@ -4,7 +4,7 @@ expiresMinutes = { $minutes }m
 
 ## Send version 2 strings
 
--send-short-brand = Send
+-send-short-brand = Yebo.link
 -firefox = Firefox
 -mozilla = Mozilla
 # byte abbreviation

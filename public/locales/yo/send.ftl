@@ -82,7 +82,7 @@ passwordSetError =
 
 ## Send version 2 strings
 
--send-brand = Send
+-send-brand = Yebo.link
 -send-short-brand =
     Fi ránṣẹ́
     Firánṣẹ́

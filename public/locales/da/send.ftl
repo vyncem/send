@@ -43,8 +43,8 @@ passwordSetError = Adgangskoden kunne ikke sættes
 
 ## Send version 2 strings
 
--send-brand = Send
--send-short-brand = Send
+-send-brand = Yebo.link
+-send-short-brand = Yebo.link
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = Enkel, privat fildeling

@@ -41,8 +41,8 @@ passwordSetError = Axi tsinat japixtaláb yab u awil ka eyendha'
 
 ## Send version 2 strings
 
--send-brand = Send
--send-short-brand = Send
+-send-brand = Yebo.link
+-send-short-brand = Yebo.link
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = Yab k'ibat, a tsinat t'ojlabil u awil ka buk'uw
