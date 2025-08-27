@@ -1,4 +1,4 @@
-title = Send
+title = Yebo.link
 importingFile = Kutora faira
 encryptingFile = Kuinikiriputa
 enableJavascript = Ndinokumbira mubvumidze JavaScript moedza zvekare

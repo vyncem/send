@@ -1,4 +1,4 @@
-title = Send
+title = Yebo.link
 importingFile = Eq'otzan
 encryptingFile = La muj isik'lele
 decryptingFile = Ni jaj ve't isik'lele'
