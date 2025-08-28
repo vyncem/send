@@ -263,26 +263,10 @@ module.exports = function(state, emit, archive) {
       id="archive-${archive.id}"
       class="flex flex-col items-start rounded-default shadow-light bg-white p-4 w-full dark:bg-grey-90 dark:border-default dark:border-grey-70"
     >
-      ${archiveInfo(
-        archive,
-        html`
-          <input
-            type="image"
-            class="self-start flex-shrink-0 text-white hover:opacity-75 focus:outline"
-            alt="${state.translate('deleteButtonHover')}"
-            title="${state.translate('deleteButtonHover')}"
-            src="${assets.get('close-16.svg')}"
-            onclick=${del}
-          />
-        `
-      )}
       <div class="text-sm opacity-75 w-full mt-2 mb-2">
-        ${expiryInfo(state.translate, archive)}
+        
       </div>
-      ${archiveDetails(state.translate, archive)}
-      <hr class="w-full border-t my-4 dark:border-grey-70" />
-      <div class="flex justify-between w-full">
-        ${dl} ${copyOrShare}
+      
       </div>
     </send-archive>
   `;
