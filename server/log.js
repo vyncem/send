@@ -4,7 +4,7 @@ const isProduction = conf.env === 'production';
 
 const mozlog = require('mozlog')({
   app: 'FirefoxSend',
-  level: isProduction ? 'INFO' : 'verbose',
+  level: isProduction ? 'TRACE' : 'verbose',
   fmt: isProduction ? 'heka' : 'pretty',
   debug: !isProduction
 });
