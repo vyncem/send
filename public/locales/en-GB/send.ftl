@@ -52,8 +52,8 @@ passwordSetError = This password could not be set
 -send-short-brand = Yebo.link
 -firefox = Firefox
 -mozilla = Mozilla
-introTitle = Simple, private file sharing
-introDescription = { -send-brand } lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.
+introTitle = Simple, Private & Secure File Sharing
+introDescription = With { -send-brand }, you can securely share files using end-to-end encryption and self-expiring links - keeping your content private and ensuring nothing stays online longer than you want.
 notifyUploadEncryptDone = Your file is encrypted and ready to send
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = Expires after { $downloadCount } or { $timespan }

@@ -89,7 +89,7 @@ class Account extends Component {
         />
         <ul
           id="accountMenu"
-          class="invisible absolute top-0 right-0 mt-10 pt-2 pb-2 bg-white shadow-md whitespace-nowrap outline-none z-50 dark:bg-grey-80"
+          class="invisible absolute top-0 right-0 mt-10 pt-2 pb-2 bg-white shadow-md whitespace-nowrap outline-none z-50"
           onblur="${e => this.hideMenu(e)}"
         >
           <li class="p-2 text-grey-60 dark:text-grey-50">${user.email}</li>

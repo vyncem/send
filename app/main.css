@@ -37,7 +37,7 @@ body {
 
 .btn {
   @apply bg-primary;
-  @apply text-white;
+  @apply text-black;
   @apply cursor-pointer;
   @apply py-4;
   @apply px-6;
@@ -192,6 +192,7 @@ footer li a:hover {
 
 .main > section {
   @apply bg-white;
+  @apply text-black;
 }
 
 #password-msg::after {
@@ -283,14 +284,14 @@ select {
 
 @screen dark {
   body {
-    @apply text-grey-10;
+    @apply text-black;
 
     background-image: unset;
   }
 
   .btn {
     @apply bg-primary;
-    @apply text-white;
+    @apply text-black;
   }
 
   .btn:hover {
@@ -314,14 +315,8 @@ select {
   }
 
   .main > section {
-    @apply bg-grey-90;
-  }
-
-  @screen md {
-    .main > section {
-      @apply border-default;
-      @apply border-grey-80;
-    }
+    @apply bg-white;
+    @apply text-black;
   }
 }
 
@@ -377,12 +372,12 @@ select {
 .white-primary:hover,
 .white-primary:focus {
   @apply bg-primary;
-  @apply text-white;
+  @apply text-black;
 }
 
 .primary {
   @apply bg-primary;
-  @apply text-white;
+  @apply text-black;
 }
 
 .white-violet {
@@ -394,14 +389,14 @@ select {
 .white-violet:hover,
 .white-violet:focus {
   @apply bg-violet;
-  @apply text-white;
+  @apply text-black;
 
   background-image: var(--violet-gradient);
 }
 
 .violet {
   @apply bg-violet;
-  @apply text-white;
+  @apply text-black;
 }
 
 .violet:hover,

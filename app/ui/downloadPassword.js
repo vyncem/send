@@ -6,7 +6,7 @@ module.exports = function(state, emit) {
 
   const div = html`
     <div
-      class="h-full w-full flex flex-col items-center justify-center bg-white py-8 max-w-md mx-auto dark:bg-grey-90"
+      class="h-full w-full flex flex-col items-center justify-center bg-white py-8 max-w-md mx-auto"
     >
       <h1 class="text-3xl font-bold mb-4">
         ${state.translate('downloadTitle')}
@@ -31,7 +31,7 @@ module.exports = function(state, emit) {
           id="password-input"
           class="w-full border-l border-t border-b rounded-l-lg rounded-r-none ${invalid
             ? 'border-red dark:border-red-40'
-            : 'border-grey'} leading-loose px-2 py-1 dark:bg-grey-80"
+            : 'border-grey'} leading-loose px-2 py-1 bg-white"
           maxlength="4096"
           autocomplete="off"
           placeholder="${state.translate('unlockInputPlaceholder')}"
