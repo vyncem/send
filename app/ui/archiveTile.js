@@ -318,7 +318,7 @@ module.exports.wip = function(state, emit) {
           .map(f =>
             fileInfo(f, remove(f, state.translate('deleteButtonHover')))
           ),
-        'flex-shrink bg-white rounded-t overflow-y-auto px-6 py-4 md:h-full md:max-h-half-screen bg-white',
+        'flex-shrink bg-white rounded-t overflow-y-auto px-6 py-2 md:h-full md:max-h-half-screen bg-white',
         'bg-white px-2 my-2 shadow-light rounded-default dark:border-default dark:border-grey-80'
       )}
       <div
