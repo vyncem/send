@@ -39,7 +39,7 @@ body {
 
 .btn {
   @apply bg-primary;
-  color: var(--color-pink);
+  @apply text-white;
   @apply cursor-pointer;
   @apply py-4;
   @apply px-6;
@@ -293,7 +293,7 @@ select {
 
   .btn {
     @apply bg-primary;
-    color: var(--color-pink);
+    @apply text-white;
   }
 
   .btn:hover {

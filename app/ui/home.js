@@ -59,7 +59,7 @@ module.exports = function(state, emit) {
   return html`
     <main class="main">
       ${state.modal && modal(state, emit)}
-      <section class="h-full w-full p-6 md:p-8 overflow-hidden md:flex md:flex-row" >
+      <section class="h-full w-full p-6 md:p-8 overflow-hidden md:flex md:flex-row border-t-8 rounded-xl" >
         <div class="mt-6 w-full md:w-1/2 md:-m-2 grid place-items-center"> <img src="${assets.get('Yebo.png')}"> </div>
         <section class="h-full w-full p-6 md:p-8 overflow-hidden md:flex md:flex-row"> 
           <div>
