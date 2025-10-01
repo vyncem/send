@@ -261,7 +261,7 @@ module.exports = function(state, emit, archive) {
   return html`
     <send-archive
       id="archive-${archive.id}"
-      class="flex flex-col items-start rounded-default shadow-light bg-white p-4 w-full  dark:border-default dark:border-grey-70"
+      class="flex flex-col items-start rounded-default shadow-light p-4 w-full  dark:border-default dark:border-grey-70"
     >
       <div class="text-sm opacity-75 w-full mt-2 mb-2">
         
@@ -309,7 +309,7 @@ module.exports = function(state, emit, archive) {
 module.exports.wip = function(state, emit) {
   return html`
     <send-upload-area
-      class="flex flex-col bg-white h-full w-full"
+      class="flex flex-col h-full w-full"
       id="wip"
     >
       ${list(
@@ -318,11 +318,11 @@ module.exports.wip = function(state, emit) {
           .map(f =>
             fileInfo(f, remove(f, state.translate('deleteButtonHover')))
           ),
-        'flex-shrink bg-white rounded-t overflow-y-auto px-6 py-2 md:h-full md:max-h-half-screen bg-white',
-        'bg-white px-2 my-2 shadow-light rounded-default dark:border-default dark:border-grey-80'
+        'flex-shrink rounded-t overflow-y-auto px-6 py-2 md:h-full md:max-h-half-screen',
+        'px-2 my-2 shadow-light rounded-default dark:border-default dark:border-grey-80'
       )}
       <div
-        class="flex-shrink-0 flex-grow flex items-end p-4 bg-white rounded-b mb-1 font-medium "
+        class="flex-shrink-0 flex-grow flex items-end p-4 rounded-b mb-1 font-medium "
       >
         <input
           id="file-upload"
@@ -423,7 +423,7 @@ module.exports.uploading = function(state, emit) {
   return html`
     <send-upload-area
       id="${archive.id}"
-      class="flex flex-col items-start rounded-default shadow-light bg-white p-4 w-full"
+      class="flex flex-col items-start rounded-default shadow-light p-4 w-full"
     >
       ${archiveInfo(archive)}
       <div class="text-xs opacity-75 w-full mt-2 mb-2">
@@ -588,7 +588,7 @@ module.exports.preview = function(state, emit) {
 
   return html`
     <send-archive
-      class="flex flex-col max-h-full bg-white p-4 w-full md:w-128"
+      class="flex flex-col max-h-full p-4 w-full md:w-128"
     >
       <div class="border-default rounded-default py-3 px-6 dark:border-grey-70">
         ${archiveInfo(archive)} ${details}
@@ -618,7 +618,7 @@ module.exports.downloading = function(state) {
   const progressPercent = percent(progress);
   return html`
     <send-archive
-      class="flex flex-col bg-white rounded-default shadow-light p-4 w-full max-w-sm md:w-128"
+      class="flex flex-col rounded-default shadow-light p-4 w-full max-w-sm md:w-128"
     >
       ${archiveInfo(archive)}
       <div class="link-primary text-sm font-medium mt-2">
