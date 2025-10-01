@@ -56,7 +56,9 @@ class Header extends Component {
       <header
         class="main-header relative flex-none flex flex-row items-center justify-between w-full px-6 md:px-8 h-16 md:h-24 z-20 bg-transparent"
       >
-         
+         <div style="background-color: var(--color-pink);" class="rounded-b-xl p-3 text-center w-full text-white">
+          <h1>Finally, a new way to Share, collaborate and move. Try for FREE!</h1>
+        </div>
       </header>
     `;
   }
