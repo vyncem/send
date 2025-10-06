@@ -7,7 +7,7 @@ module.exports = function body(main) {
     const b = html`
       <body
         class="flex flex-col items-center font-sans md:h-screen bg-white"
-  style="background: linear-gradient(135deg, rgba(37,99,235,0.12) 0%, rgba(56,189,248,0.12) 40%, rgba(232,121,249,0.12) 80%, rgba(236,72,153,0.12) 100%);"
+  style="background: linear-gradient(135deg, rgba(37,99,235,0.05) 0%, rgba(56,189,248,0.05) 40%, rgba(232,121,249,0.05) 80%, rgba(236,72,153,0.05) 100%);"
 
       >
         ${state.cache(Header, 'header').render()} ${main(state, emit)}
