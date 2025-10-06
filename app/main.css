@@ -16,8 +16,6 @@ html {
     rgb(144 89 255 / 80%) 0%,
     rgb(144 89 255 / 40%) 100%
   );
-
-  --color-pink: #E71C73; 
 }
 
 a {
@@ -153,6 +151,20 @@ footer li a:hover {
   white-space: nowrap;
 }
 
+.link-plus-primary {
+  @apply text-white;
+  @apply rounded-full;
+  @apply bg-primary;
+}
+
+.link-plus-primary:hover {
+  @apply bg-primary_accent;
+}
+
+.link-plus-primary:focus {
+  @apply bg-primary_accent;
+}
+
 .link-primary {
   @apply text-primary;
 }
@@ -194,7 +206,7 @@ footer li a:hover {
 }
 
 .main > section {
-  color: var(--color-pink);
+  @apply text-primary;
 }
 
 #password-msg::after {
@@ -286,7 +298,7 @@ select {
 
 @screen dark {
   body {
-    color: var(--color-pink);
+    @apply text-primary;
 
     background-image: unset;
   }
@@ -304,6 +316,20 @@ select {
     @apply bg-primary_accent;
   }
 
+  .link-plus-primary {
+    @apply text-white;
+    @apply rounded-full;
+    @apply bg-primary;
+  }
+
+  .link-plus-primary:hover {
+    @apply bg-primary_accent;
+  }
+
+  .link-plus-primary:focus {
+    @apply bg-primary_accent;
+  }
+
   .link-primary {
     @apply text-primary;
   }
@@ -317,7 +343,7 @@ select {
   }
 
   .main > section {
-    color: var(--color-pink);
+    @apply text-primary;
   }
 }
 
@@ -373,12 +399,12 @@ select {
 .white-primary:hover,
 .white-primary:focus {
   @apply bg-primary;
-  color: var(--color-pink);
+  @apply text-primary;
 }
 
 .primary {
   @apply bg-primary;
-  color: var(--color-pink);
+  @apply text-primary;
 }
 
 .white-violet {
@@ -390,14 +416,14 @@ select {
 .white-violet:hover,
 .white-violet:focus {
   @apply bg-violet;
-  color: var(--color-pink);
+  @apply text-primary;
 
   background-image: var(--violet-gradient);
 }
 
 .violet {
   @apply bg-violet;
-  color: var(--color-pink);
+  @apply text-primary;
 }
 
 .violet:hover,
