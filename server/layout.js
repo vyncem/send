@@ -11,6 +11,15 @@ module.exports = function(state, body = '') {
     <!DOCTYPE html>
     <html lang="${state.locale}">
       <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FFC9XCQ92V"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-FFC9XCQ92V');
+        </script>
         <title>${state.title}</title>
         <base href="/" />
         <meta name="robots" content="${state.robots},noarchive" />
