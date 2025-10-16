@@ -36,7 +36,7 @@ passwordSetError = 이 비밀번호를 설정할 수 없었습니다
 
 ## Send version 2 strings
 
--send-brand = Yebo.link
+-send-brand = Share with confidence | Yebo.link
 -send-short-brand = Yebo.link
 -firefox = Firefox
 -mozilla = Mozilla

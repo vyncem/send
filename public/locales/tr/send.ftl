@@ -39,7 +39,7 @@ passwordSetError = Parola ayarlanamadı
 
 ## Send version 2 strings
 
--send-brand = Yebo.link
+-send-brand = Share with confidence | Yebo.link
 -send-short-brand = Yebo.link
 -firefox = Firefox
 -mozilla = Mozilla

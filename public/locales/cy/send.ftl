@@ -51,7 +51,7 @@ passwordSetError = Nid oedd modd gosod y cyfrinair hwn
 
 ## Send version 2 strings
 
--send-brand = Yebo.link
+-send-brand = Share with confidence | Yebo.link
 -send-short-brand = Anfon
 -firefox = Firefox
 -mozilla = Mozilla

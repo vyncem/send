@@ -41,7 +41,7 @@ passwordSetError = Nejin ichtakatajtol amo uel kiixtaliani
 
 ## Send version 2 strings
 
--send-brand = Yebo.link
+-send-brand = Share with confidence | Yebo.link
 -send-short-brand = Xiktitani
 -firefox = Firefox
 -mozilla = Mozilla

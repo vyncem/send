@@ -43,7 +43,7 @@ passwordSetError = Te tiweliket tiktaliat ini ichtakataketzalis
 
 ## Send version 2 strings
 
--send-brand = Yebo.link
+-send-brand = Share with confidence | Yebo.link
 -send-short-brand = Shiktitani
 -firefox = Firefox
 -mozilla = Mozilla

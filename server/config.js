@@ -170,13 +170,13 @@ const conf = convict({
   },
   custom_title: {
     format: String,
-    default: 'Yebo.link',
+    default: 'Share with confidence | Yebo.link',
     env: 'CUSTOM_TITLE'
   },
   custom_description: {
     format: String,
     default:
-      'Encrypt and send files with a link that automatically expires to ensure your important documents don’t stay online forever.',
+      'Share with Confidence! Simple, Private & Secure File Sharing.',
     env: 'CUSTOM_DESCRIPTION'
   },
   detect_base_url: {

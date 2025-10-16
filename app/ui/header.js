@@ -25,20 +25,14 @@ class Header extends Component {
         icon:
           this.state.WEB_UI.CUSTOM_ASSETS.icon !== ''
             ? this.state.WEB_UI.CUSTOM_ASSETS.icon
-            : assets.get('Yebo_icon.png'),
-        wordmark:
-          this.state.WEB_UI.CUSTOM_ASSETS.wordmark !== ''
-            ? this.state.WEB_UI.CUSTOM_ASSETS.wordmark
-            : assets.get('wordmark.svg') + '#logo'
+            : assets.get('Yebo_icon.png')
       };
     const title =
       platform() === 'android'
         ? html`
             <a class="flex flex-row items-center">
               <img src="${assetMap.icon}" />
-              <svg class="w-48">
-                <use xlink:href="${assetMap.wordmark}" />
-              </svg>
+              Share with confidence | Yebo.link
             </a>
           `
         : html`
@@ -47,9 +41,7 @@ class Header extends Component {
                 alt="${this.state.translate('title')}"
                 src="${assetMap.icon}"
               />
-              <svg viewBox="66 0 340 64" class="w-48 md:w-64">
-                <use xlink:href="${assetMap.wordmark}" />
-              </svg>
+              Share with confidence | Yebo.link
             </a>
           `;
     return html`

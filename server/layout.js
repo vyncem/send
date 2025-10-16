@@ -34,8 +34,8 @@ module.exports = function(state, body = '') {
         <meta property="og:description" content="${state.description}" />
         <meta name="twitter:description" content="${state.description}" />
         <meta name="twitter:card" content="summary" />
-        <meta property="og:image" content="${state.ui.assets.facebook}" />
-        <meta name="twitter:image" content="${state.ui.assets.twitter}" />
+        <meta property="og:image" content="${state.baseUrl}/${assets.get('Yebo_icon.jpg')}" />
+        <meta name="twitter:image" content="${state.baseUrl}/${assets.get('Yebo_icon.jpg')}" />
         <meta property="og:url" content="${state.baseUrl}" />
         <meta name="theme-color" content="#220033" />
         <meta name="msapplication-TileColor" content="#220033" />

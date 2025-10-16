@@ -32,7 +32,7 @@ expiresMinutes = { $minutes }m
 
 ## Send version 2 strings
 
--send-brand = Yebo.link
+-send-brand = Share with confidence | Yebo.link
 -send-short-brand = Aq'b'en
 -firefox = Firefox
 -mozilla = Mozilla

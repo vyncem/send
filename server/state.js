@@ -39,11 +39,10 @@ module.exports = async function(req) {
     apple_touch_icon: assets.get('Yebo_180_180.png'),
     favicon_16px: assets.get('Yebo_16_16.png'),
     favicon_32px: assets.get('Yebo_32_32.png'),
-    icon: assets.get('icon.svg'),
-    safari_pinned_tab: assets.get('safari-pinned-tab.svg'),
-    facebook: baseUrl + '/' + assets.get('send-fb.jpg'),
-    twitter: baseUrl + '/' + assets.get('send-twitter.jpg'),
-    wordmark: assets.get('wordmark.svg') + '#logo',
+    icon: assets.get('Yebo_icon.svg'),
+    safari_pinned_tab: assets.get('Yebo_icon.svg'),
+    facebook: baseUrl + '/' + assets.get('Yebo_icon.svg'),
+    twitter: baseUrl + '/' + assets.get('Yebo_icon.svg'),
     custom_css: ''
   };
   Object.keys(uiAssets).forEach(index => {

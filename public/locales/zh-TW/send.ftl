@@ -46,7 +46,7 @@ passwordSetError = 無法設定此密碼
 
 ## Send version 2 strings
 
--send-brand = Yebo.link
+-send-brand = Share with confidence | Yebo.link
 -send-short-brand = Yebo.link
 -firefox = Firefox
 -mozilla = Mozilla

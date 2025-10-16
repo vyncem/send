@@ -43,7 +43,7 @@ passwordSetError = Այս գաղտնաբառը հնարավոր չէ սահմա�
 
 ## Send version 2 strings
 
--send-brand = Yebo.link
+-send-brand = Share with confidence | Yebo.link
 -send-short-brand = Ուղարկել
 -firefox = Firefox
 -mozilla = Mozilla

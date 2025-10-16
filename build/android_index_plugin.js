@@ -20,7 +20,7 @@ class AndroidIndexPlugin {
       const page = html`
         <html lang="en-US">
           <head>
-            <title>Yebo.link</title>
+            <title>Share with confidence | Yebo.link</title>
             <meta charset="utf-8" />
             <meta
               name="viewport"
